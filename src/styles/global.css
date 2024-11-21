@@ -1,0 +1,317 @@
+/* Загальні стилі для всього додатку */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2, h3 {
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 20 0;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #343a40;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li {
+    display: inline;
+}
+
+.navbar-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-list a:hover {
+    text-decoration: underline;
+}
+
+.auth-container, .history-container, .retrain-container, .profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.highlighted {
+    background-color: lightblue;
+}
+#image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #result-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bounding-box {
+    position: absolute;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+  }
+  
+  .bounding-box.highlighted {
+    border-color: blue;
+  }
+  #image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #result-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bounding-box {
+    position: absolute;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+  }
+  
+  .bounding-box.highlighted {
+    border-color: blue;
+  }
+  .auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #343a40;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    
+    margin-bottom: 40px;
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    
+}
+
+.form-section2 {
+    
+    margin-bottom: 40px;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #343a40;
+}
+
+div{
+    margin: 0 auto;
+    padding: 0;
+}
+.bounding-box {
+    border: 2px solid rgba(255, 0, 0, 0.022);
+    position: absolute;
+    pointer-events: none;
+}
+
+.bounding-box:hover {
+    border-color: red;
+    opacity: 1;
+}
+
+.table-container {
+    background-color: #343a40;
+    color: #ffffff; 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #495057; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+.table-container th {
+    background-color: #495057;  
+}
+
+.table-container tr:hover {
+    background-color: #212529; 
+    cursor: pointer;  
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    padding: 5px 15px;
+    border: 1px solid #343a40;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:disabled {
+    background-color: #e9ecef;
+    color: #adb5bd;
+    cursor: not-allowed;
+}
+
+.pagination-button:hover:not(:disabled) {
+    background-color: #495057;
+}
+
+.current-page {
+    font-weight: bold;
+    color: #343a40;
+    font-size: 16px;
+}
